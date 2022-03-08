@@ -13,5 +13,3 @@ str = '1'
 console.log(parseInt(str))
 str = '1.5'
 console.log(parseFloat(str))
-
-
