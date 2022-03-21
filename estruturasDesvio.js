@@ -4,7 +4,7 @@ if(x1 === 0)
 
 let x2 = 0
 if(x2 === 0){
-    console.log('X1 é zero!')
+    console.log('X2 é zero!')
     x2++
 }
 
@@ -19,3 +19,10 @@ for(let i= 1; i <= 20; i++){
     }
 }
 
+for(let i= 1; i <= 20; i++){
+    if(i % 2 === 0){
+     console.log(i + ' é PAR!')
+    } else {
+      console.log(i + ' é ÍMPAR!')
+    }
+}
